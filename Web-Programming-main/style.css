@@ -16,6 +16,7 @@ body{
 .info{
     background-color: #000;
     color: #fff;
+    text-shadow: 1px 0px 2px #fff;
     padding: 20px;
     text-align: center;
 
@@ -28,7 +29,7 @@ body{
 header{
     max-width: 1500px;
     margin: auto;
-    padding: 30px;
+    padding: 30px;  
     display: flex;
     justify-content: space-between;
 }
@@ -41,6 +42,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
+    text-shadow: 3px 0px 1px #000;
     color: #fff;
 
 }
