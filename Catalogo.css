@@ -7,20 +7,21 @@
 body{
     font-family: 'Merienda';
     background-image: url(Images/FondoC.jpeg);
+    background-attachment: fixed;
 }
 .info{
     background-color: #3a2c2c;
     color: #dbdada;
-    text-shadow: 1px 0px 5px #fff;
+    text-shadow: 1px 0px 10px #dbdada;
     padding: 20px;
     text-align: center;
 }
 header{
-max-width: 1500px;
-margin: auto;
-padding: 30px;
-display: flex;
-justify-content: space-between;
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 nav ul{
     display: flex;
@@ -30,8 +31,9 @@ nav ul li{
     margin: 0 20px;
 }
 nav ul li a{
+    font-weight: 700;
     text-decoration: none;
-    text-shadow: 2px 0px 2px #3a2c2c;
+    text-shadow: 1px 0px 3px #3a2c2c;
     color: #3a2c2c;
 }
 nav ul li a:hover{
@@ -41,7 +43,7 @@ section{
     max-width: 800px;
     margin: 50px auto;
     padding: 20PX;
-    background-color: #f2f2f2;
+    background-color: #faecec;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -82,6 +84,7 @@ section h2{
     transform: scale(1.05);
 }
 .Producto p{
+    padding: 10px;
     font-size: 14px;
     color: #777;
 }
