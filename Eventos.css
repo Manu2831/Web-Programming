@@ -34,8 +34,39 @@ nav ul li a{
 nav ul li a:hover{
     text-decoration: underline;
 }
-
+section{
+    padding: 10px;
+    margin: 50px auto;
+    background: #ebe6e6;
+    border: solid 2px #3a2c2c;
+    border-radius: 15px;
+    max-width: 800px;
+}
+section h2{
+    text-align: center;
+    text-shadow: 1px 0px 1px #3a2c2c;
+}
+.evento{
+    background: #f1f1f1;
+    margin: 10px ;
+    padding: 10 15px;
+    border: solid 2px #3a2c2c;
+    border-radius: 10px;
+    transition: transform 0.3 ease;
+}
+.evento h3{
+    margin: 10px;
+    color: #3a2c2c;
+    text-shadow: 1px 0px 1px #3a2c2c;
+}
+.evento p{
+    margin: 10px;
+}
+.evento:hover{
+    transform: scale(1.02);
+}
 footer{
+    
     padding: 10px;
     background-color: #3a2c2c;
     text-align: center;
