@@ -34,14 +34,16 @@ nav ul li a:hover{
 }
 section{
     padding: 20px;
-    margin: 50px;
+    margin: 50px auto;
     background-color: #f2f2f2;
     border-radius: 15px;
     max-width: 880px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .Mision-Vision{
-    display: grid
+    border: solid 2px #3a2c2c;
+    border-radius: 15px;
+    padding: 20px;
 }
 .Mision-Vision h2{
     padding: 10px;
