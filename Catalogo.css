@@ -31,9 +31,8 @@ nav ul li{
     margin: 0 20px;
 }
 nav ul li a{
-    font-weight: 700;
     text-decoration: none;
-    text-shadow: 1px 0px 3px #3a2c2c;
+    text-shadow: 1px 0px 1px #3a2c2c;
     color: #3a2c2c;
 }
 nav ul li a:hover{

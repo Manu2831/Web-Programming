@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merienda';
+
+
+}
+header{
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;  
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-shadow: 1px 0px 1px #000;
+    color: #000;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
