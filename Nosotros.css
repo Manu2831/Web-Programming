@@ -7,8 +7,9 @@
 }
 body{
     font-family: 'Merienda';
-    background-image: url(Images/FondoC.jpeg);
+    background-image: url(Images/FondoE.png);
     background-attachment: fixed;
+    background-size: cover;
 }
 header{
     max-width: 1500px;
@@ -26,8 +27,8 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    text-shadow: 1px 0px 1px #3a2c2c;
-    color: #3a2c2c;
+    text-shadow: 1px 0px 1px #e0dede;
+    color: #dbdada;
 }
 nav ul li a:hover{
     text-decoration: underline;
@@ -35,18 +36,27 @@ nav ul li a:hover{
 section{
     padding: 20px;
     margin: 50px auto;
-    background-color: #f2f2f2;
+    background-color: #f0eded;
     border-radius: 15px;
     max-width: 880px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+section h2{
+    color: #271e1e;
+    text-shadow: 1px 0px 2px #271e1e;
+    text-align: center;
+    padding-bottom: 15px;
 }
 .Mision-Vision{
     border: solid 2px #3a2c2c;
     border-radius: 15px;
     padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    transition: transform 0.3 ease;
 }
-.Mision-Vision h2{
-    padding: 10px;
+.Mision-Vision h3{
+    font-size: 22px;
+    padding: 15px;
     color: #3a2c2c;
     text-shadow: 1px 0px 1px #3a2c2c;
 }
@@ -54,6 +64,9 @@ section{
     padding-bottom: 15px;
     margin: 15px;
     color: #000;
+}
+.Mision-Vision:hover{
+    transform: scale(1.02);
 }
 footer{
     text-decoration: none;
