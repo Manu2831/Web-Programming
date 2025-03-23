@@ -7,8 +7,8 @@
 }
 body{
     font-family: 'Merienda';
-
-
+    background-image: url(Images/FondoC.jpeg);
+    background-attachment: fixed;
 }
 header{
     max-width: 1500px;
@@ -26,10 +26,37 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    text-shadow: 1px 0px 1px #000;
-    color: #000;
-
+    text-shadow: 1px 0px 1px #3a2c2c;
+    color: #3a2c2c;
 }
 nav ul li a:hover{
     text-decoration: underline;
+}
+section{
+    padding: 20px;
+    margin: 50px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    max-width: 880px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.Mision-Vision{
+    display: grid
+}
+.Mision-Vision h2{
+    padding: 10px;
+    color: #3a2c2c;
+    text-shadow: 1px 0px 1px #3a2c2c;
+}
+.Mision-Vision p{
+    padding-bottom: 15px;
+    margin: 15px;
+    color: #000;
+}
+footer{
+    text-decoration: none;
+    color: #dbdada;
+    background-color: #3a2c2c;
+    text-align: center;
+    padding: 10px;
 }

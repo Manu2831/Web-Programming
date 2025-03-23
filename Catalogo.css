@@ -6,8 +6,9 @@
 }
 body{
     font-family: 'Merienda';
-    background-image: url(Images/FondoC.jpeg);
+    background-image: url(Images/FondoN.png);
     background-attachment: fixed;
+    background-size: cover;
 }
 .info{
     background-color: #3a2c2c;
